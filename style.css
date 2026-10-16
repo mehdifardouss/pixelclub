@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 NAV{
     width: 100%;
     display: flex;
@@ -12,6 +13,9 @@ NAV{
 }
 .textgris{
     color: grey;
+}
+main{background-color: #F5F5F5;
+    padding-bottom: 20px;
 }
 h3{color: #5B4FD6;}
 .section2 h2 {
@@ -63,6 +67,7 @@ a{
     flex-direction: column;
 }
 .divback{
+    
     background-color: #1B2340 ;
     width: 350px;
     border-radius: 15px;
@@ -73,9 +78,10 @@ a{
   
 }
 .divback p{
-    margin-top: 60PX;
+    margin-top: 0PX;
     text-align: center;
     color: aliceblue;
+    padding: 60px;
 
 }
 .lesarticles{
@@ -91,21 +97,21 @@ article{
     padding: 15px;
     margin: 30px;
     width: 250PX;
+    background-color: white;
     
 
 }
 footer{
-    margin-top: 40px;
+    margin: 30px;
     text-align: center;
-    margin-bottom: 5px;
+    
 }
 @media (max-width: 380px) {
-   
-.divback p{padding: 20px;}
-.divback{
-    margin: 10px;
-    margin-bottom: 20px;
-}
+   .divback
+{margin-bottom: 50px;}
+.divback p{ padding: 0px;
+    padding-left: 20PX;
+text-align: start;}
 nav{
     display: flex;
     flex-direction: row;
@@ -114,8 +120,8 @@ nav{
 .divpart1{
     width: 100%;
 }
-    body {
-        margin: 0;
-    }
+article{ margin: 5px;
+width: 100%;}
+  .section1{margin-left: 10px;}
     
     }
