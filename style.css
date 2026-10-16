@@ -17,6 +17,10 @@ h3{color: #5B4FD6;}
 .section2 h2 {
     margin-left: 30px;
 }
+li{
+    text-decoration: none;
+    list-style: none;
+}
 ul{
     display: flex;
     gap: 30px;
@@ -62,14 +66,17 @@ a{
     background-color: #1B2340 ;
     width: 350px;
     border-radius: 15px;
+    text-align: center;
+    
  
 
   
 }
 .divback p{
+    margin-top: 60PX;
     text-align: center;
     color: aliceblue;
-    margin-top:25%;
+
 }
 .lesarticles{
     
@@ -94,9 +101,21 @@ footer{
 }
 @media (max-width: 380px) {
    
-
+.divback p{padding: 20px;}
+.divback{
+    margin: 10px;
+    margin-bottom: 20px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.divpart1{
+    width: 100%;
+}
     body {
         margin: 0;
     }
     
-    }}
+    }
